@@ -1,0 +1,14 @@
+	<IfModule mod_rewrite.c>
+		RewriteEngine On
+
+		RewriteRule ^Home/?$ index.php [NC,L]
+		RewriteRule ^institucional/?$ index.php?p=institucional [NC,L]
+		RewriteRule ^crms/?$ index.php?p=crms [NC,L]
+		RewriteRule ^projetosocial/?$ index.php?p=projetosocial [NC,L]
+		RewriteRule ^tcd/?$ index.php?p=tcd [NC,L]
+		RewriteRule ^portfolio/?$ index.php?p=portfolio [NC,L]
+		RewriteRule ^comprar/?$ index.php?p=comprar [NC,L]
+		RewriteRule ^contato/?$ index.php?p=contato [NC,L]
+		RewriteRule ^crms/Site_Gerenciavel_de_Imobiliaria app/sgi [NC,L]
+		RewriteRule ^crms/Sistema_de_Veterinaria_e_Petshop app/pet [NC,L]
+	</IfModule>
